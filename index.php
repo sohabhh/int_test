@@ -14,8 +14,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dashboard</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="resources/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="dist/jquery-simple-multi-select.js"></script>
 	<link href="resources/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -55,7 +53,7 @@
 			<div class="row">
 				<div id="callback">
 					<div class="col-md-4">
-						<select id="callback_src" multiple style="width: 7em; height: 10em;" class="form-control">
+						<select id="callback_src" multiple style="width: 15em; height: 10em;" class="form-control">
 						<?php
 						$sql = "SELECT * FROM tbl_list_items";
 						$list = array();
@@ -78,7 +76,7 @@
 						<button type="button" id="callback_remover" class="btn btn-primary mb-1">&lt;</button>
 					</div>
 					<div class="col-md-4">
-						<select id="callback_dst" multiple style="width: 7em; height: 10em;" class="form-control"></select>
+						<select id="callback_dst" multiple style="width: 15em; height: 10em;" class="form-control"></select>
 					</div>
 					
 				</div>
